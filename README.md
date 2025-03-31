@@ -1,0 +1,2 @@
+# dotfilesBspwm
+My bspwm config
