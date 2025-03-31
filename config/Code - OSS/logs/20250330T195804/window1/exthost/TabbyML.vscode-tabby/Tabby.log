@@ -1,0 +1,414 @@
+2025-03-30 19:58:09.598 [info] [Tabby] Activating Tabby extension...
+2025-03-30 19:58:09.598 [info] [Tabby] Tabby extension activated.
+2025-03-30 19:58:09.598 [info] [Tabby] GitProvider created.
+2025-03-30 19:58:09.598 [info] [Tabby] Launching language server tabby-agent...
+2025-03-30 19:58:09.598 [error] [VSCodeKeyBindingManager] Error reading keybindings: A system error occurred (ENOENT: no such file or directory, open '/home/diego/.config/Code/User/keybindings.json')
+2025-03-30 19:58:09.996 [info] (node:2917) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newAttached listeners added to [wx]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+
+2025-03-30 19:58:10.049 [info] [Debug - 7:58:10 p. m.] [CertsLoader] Loading extra certs from /etc/ssl/certs/ca-certificates.crt.
+2025-03-30 19:58:10.051 [info] [Debug - 7:58:10 p. m.] [CertsLoader] Loaded 151 extra certs.
+2025-03-30 19:58:10.053 [info] [Info  - 7:58:10 p. m.] [TabbyLSP] Initializing...
+2025-03-30 19:58:10.054 [info] [Debug - 7:58:10 p. m.] [TabbyLSP] Initializing internal components...
+2025-03-30 19:58:10.055 [info] [Info  - 7:58:10 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-30 19:58:10.056 [info] [Info  - 7:58:10 p. m.] [Telemetry] Anonymous usage tracking disabled: false
+2025-03-30 19:58:10.059 [info] [Info  - 7:58:10 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-30 19:58:10.060 [info] [Debug - 7:58:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [77b9b6ec-3833-4205-9a89-acf89827840c]
+2025-03-30 19:58:10.104 [info] [Debug - 7:58:10 p. m.] [TabbyLSP] Internal components initialized.
+2025-03-30 19:58:10.105 [info] [Debug - 7:58:10 p. m.] [TabbyLSP] Initializing feature components...
+2025-03-30 19:58:10.106 [info] [Info  - 7:58:10 p. m.] [RecentlyChangedCodeSearch] Created code search engine for recently changed files.
+2025-03-30 19:58:10.106 [info] [Debug - 7:58:10 p. m.] [TabbyLSP] Feature components initialized.
+2025-03-30 19:58:10.109 [info] [Info  - 7:58:10 p. m.] [TabbyLSP] Initialize done.
+2025-03-30 19:58:10.138 [info] (node:2917) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+
+2025-03-30 19:58:10.151 [info] [Tabby] Language server tabby-agent launched.
+2025-03-30 19:58:10.154 [info] [Error - 7:58:10 p. m.] [TabbyApiClient] Health check request failed. [77b9b6ec-3833-4205-9a89-acf89827840c] {
+  "error": {}
+}
+2025-03-30 19:58:10.159 [info] [Info  - 7:58:10 p. m.] [TabbyLSP] Received initialized notification.
+2025-03-30 19:58:10.478 [info] [Debug - 7:58:10 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:58:11.752 [info] [Debug - 7:58:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:58:15.684 [info] [Debug - 7:58:15 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:58:40.103 [info] [Debug - 7:58:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 19:58:40.104 [info] [Debug - 7:58:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [7f1b4ee6-59e4-442c-be08-3b05288cd270]
+2025-03-30 19:58:40.106 [info] [Error - 7:58:40 p. m.] [TabbyApiClient] Health check request failed. [7f1b4ee6-59e4-442c-be08-3b05288cd270] {
+  "error": {}
+}
+2025-03-30 19:58:51.692 [info] [Debug - 7:58:51 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:58:58.316 [info] [Debug - 7:58:58 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:58:59.107 [info] [Debug - 7:58:59 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:01.988 [info] [Debug - 7:59:01 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:03.476 [info] [Debug - 7:59:03 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:03.933 [info] [Debug - 7:59:03 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:04.426 [info] [Debug - 7:59:04 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:05.008 [info] [Debug - 7:59:05 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:10.105 [info] [Debug - 7:59:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 19:59:10.106 [info] [Debug - 7:59:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c4b84178-356b-4063-a72b-4c0a112c0431]
+2025-03-30 19:59:10.111 [info] [Error - 7:59:10 p. m.] [TabbyApiClient] Health check request failed. [c4b84178-356b-4063-a72b-4c0a112c0431] {
+  "error": {}
+}
+2025-03-30 19:59:13.140 [info] [Debug - 7:59:13 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:15.070 [info] [Debug - 7:59:15 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:15.762 [info] [Debug - 7:59:15 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:17.061 [info] [Debug - 7:59:17 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:17.619 [info] [Debug - 7:59:17 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:18.525 [info] [Debug - 7:59:18 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:20.063 [info] [Debug - 7:59:20 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:21.536 [info] [Debug - 7:59:21 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:23.488 [info] [Debug - 7:59:23 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 19:59:40.107 [info] [Debug - 7:59:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 19:59:40.109 [info] [Debug - 7:59:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [56e9bfef-60b2-4982-a160-3882f70d6dee]
+2025-03-30 19:59:40.122 [info] [Error - 7:59:40 p. m.] [TabbyApiClient] Health check request failed. [56e9bfef-60b2-4982-a160-3882f70d6dee] {
+  "error": {}
+}
+2025-03-30 20:00:10.106 [info] [Debug - 8:00:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:00:10.108 [info] [Debug - 8:00:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [fa55aac5-45fc-4714-aee6-fd95d85ff34b]
+2025-03-30 20:00:10.115 [info] [Error - 8:00:10 p. m.] [TabbyApiClient] Health check request failed. [fa55aac5-45fc-4714-aee6-fd95d85ff34b] {
+  "error": {}
+}
+2025-03-30 20:00:40.106 [info] [Debug - 8:00:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:00:40.108 [info] [Debug - 8:00:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [43a9c347-0aad-4297-b8d3-8a8524374745]
+2025-03-30 20:00:40.113 [info] [Error - 8:00:40 p. m.] [TabbyApiClient] Health check request failed. [43a9c347-0aad-4297-b8d3-8a8524374745] {
+  "error": {}
+}
+2025-03-30 20:01:10.105 [info] [Debug - 8:01:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:01:10.107 [info] [Debug - 8:01:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [b0384bde-a1d6-4c44-99ee-7d269c066737]
+2025-03-30 20:01:10.111 [info] [Error - 8:01:10 p. m.] [TabbyApiClient] Health check request failed. [b0384bde-a1d6-4c44-99ee-7d269c066737] {
+  "error": {}
+}
+2025-03-30 20:01:40.107 [info] [Debug - 8:01:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:01:40.109 [info] [Debug - 8:01:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [950217dd-484d-4db5-b603-be982ab8a5a3]
+2025-03-30 20:01:40.120 [info] [Error - 8:01:40 p. m.] [TabbyApiClient] Health check request failed. [950217dd-484d-4db5-b603-be982ab8a5a3] {
+  "error": {}
+}
+2025-03-30 20:02:07.102 [info] [Debug - 8:02:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:02:07.802 [info] [Debug - 8:02:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:02:08.637 [info] [Debug - 8:02:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:02:08.910 [info] [Debug - 8:02:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:02:10.107 [info] [Debug - 8:02:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:02:10.109 [info] [Debug - 8:02:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [80a8e36a-d7f2-4439-9a3e-df6cf51b40b9]
+2025-03-30 20:02:10.115 [info] [Error - 8:02:10 p. m.] [TabbyApiClient] Health check request failed. [80a8e36a-d7f2-4439-9a3e-df6cf51b40b9] {
+  "error": {}
+}
+2025-03-30 20:02:40.107 [info] [Debug - 8:02:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:02:40.108 [info] [Debug - 8:02:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [da166bb0-d362-4db7-9446-daa54c3ed90a]
+2025-03-30 20:02:40.112 [info] [Error - 8:02:40 p. m.] [TabbyApiClient] Health check request failed. [da166bb0-d362-4db7-9446-daa54c3ed90a] {
+  "error": {}
+}
+2025-03-30 20:02:47.190 [info] [Debug - 8:02:47 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:06.881 [info] [Debug - 8:03:06 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:07.606 [info] [Debug - 8:03:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:08.323 [info] [Debug - 8:03:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:08.741 [info] [Debug - 8:03:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:09.463 [info] [Debug - 8:03:09 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:10.107 [info] [Debug - 8:03:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:03:10.109 [info] [Debug - 8:03:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8b3017d3-d238-4b3d-b01f-2bb54a8fc27a]
+2025-03-30 20:03:10.114 [info] [Error - 8:03:10 p. m.] [TabbyApiClient] Health check request failed. [8b3017d3-d238-4b3d-b01f-2bb54a8fc27a] {
+  "error": {}
+}
+2025-03-30 20:03:11.218 [info] [Debug - 8:03:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:21.594 [info] [Debug - 8:03:21 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:23.474 [info] [Debug - 8:03:23 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:25.576 [info] [Debug - 8:03:25 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:26.027 [info] [Debug - 8:03:26 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:26.619 [info] [Debug - 8:03:26 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:27.593 [info] [Debug - 8:03:27 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:34.293 [info] [Debug - 8:03:34 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:03:40.109 [info] [Debug - 8:03:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:03:40.110 [info] [Debug - 8:03:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [a78a215b-f33d-4c27-a766-c8687a8289ab]
+2025-03-30 20:03:40.115 [info] [Error - 8:03:40 p. m.] [TabbyApiClient] Health check request failed. [a78a215b-f33d-4c27-a766-c8687a8289ab] {
+  "error": {}
+}
+2025-03-30 20:03:50.700 [info] [Debug - 8:03:50 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:04:10.109 [info] [Debug - 8:04:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:04:10.110 [info] [Debug - 8:04:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [526555a9-56fd-49ad-9d93-66a673da0aad]
+2025-03-30 20:04:10.112 [info] [Error - 8:04:10 p. m.] [TabbyApiClient] Health check request failed. [526555a9-56fd-49ad-9d93-66a673da0aad] {
+  "error": {}
+}
+2025-03-30 20:04:34.323 [info] [Debug - 8:04:34 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:04:40.110 [info] [Debug - 8:04:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:04:40.111 [info] [Debug - 8:04:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [a5effa9b-2dce-47b0-b8e9-4029343501ab]
+2025-03-30 20:04:40.115 [info] [Error - 8:04:40 p. m.] [TabbyApiClient] Health check request failed. [a5effa9b-2dce-47b0-b8e9-4029343501ab] {
+  "error": {}
+}
+2025-03-30 20:05:07.710 [info] [Debug - 8:05:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:08.129 [info] [Debug - 8:05:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:08.533 [info] [Debug - 8:05:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:09.195 [info] [Debug - 8:05:09 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:09.778 [info] [Debug - 8:05:09 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:10.111 [info] [Debug - 8:05:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:05:10.113 [info] [Debug - 8:05:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [4dde8837-2892-4309-aa4d-61e1ce8db9fe]
+2025-03-30 20:05:10.117 [info] [Error - 8:05:10 p. m.] [TabbyApiClient] Health check request failed. [4dde8837-2892-4309-aa4d-61e1ce8db9fe] {
+  "error": {}
+}
+2025-03-30 20:05:21.634 [info] [Debug - 8:05:21 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:22.947 [info] [Debug - 8:05:22 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:24.883 [info] [Debug - 8:05:24 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:25.555 [info] [Debug - 8:05:25 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:26.791 [info] [Debug - 8:05:26 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:31.044 [info] [Debug - 8:05:31 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:32.856 [info] [Debug - 8:05:32 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:05:40.112 [info] [Debug - 8:05:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:05:40.114 [info] [Debug - 8:05:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [818218bc-ea4a-4925-9c88-1ee5e7b36cc7]
+2025-03-30 20:05:40.119 [info] [Error - 8:05:40 p. m.] [TabbyApiClient] Health check request failed. [818218bc-ea4a-4925-9c88-1ee5e7b36cc7] {
+  "error": {}
+}
+2025-03-30 20:06:10.113 [info] [Debug - 8:06:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:06:10.114 [info] [Debug - 8:06:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [2477e856-ef61-4300-b503-c124907a83c3]
+2025-03-30 20:06:10.117 [info] [Error - 8:06:10 p. m.] [TabbyApiClient] Health check request failed. [2477e856-ef61-4300-b503-c124907a83c3] {
+  "error": {}
+}
+2025-03-30 20:06:40.112 [info] [Debug - 8:06:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:06:40.114 [info] [Debug - 8:06:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ad405e40-88ea-4ac3-b4a6-04c64b8ec503]
+2025-03-30 20:06:40.119 [info] [Error - 8:06:40 p. m.] [TabbyApiClient] Health check request failed. [ad405e40-88ea-4ac3-b4a6-04c64b8ec503] {
+  "error": {}
+}
+2025-03-30 20:06:42.680 [info] [Debug - 8:06:42 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:53.378 [info] [Debug - 8:06:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:54.062 [info] [Debug - 8:06:54 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:56.250 [info] [Debug - 8:06:56 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:56.740 [info] [Debug - 8:06:56 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:57.613 [info] [Debug - 8:06:57 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:06:58.261 [info] [Debug - 8:06:58 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:10.113 [info] [Debug - 8:07:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:07:10.114 [info] [Debug - 8:07:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [84bda747-15fb-4ad5-bc6d-fb8a149821e2]
+2025-03-30 20:07:10.119 [info] [Error - 8:07:10 p. m.] [TabbyApiClient] Health check request failed. [84bda747-15fb-4ad5-bc6d-fb8a149821e2] {
+  "error": {}
+}
+2025-03-30 20:07:32.105 [info] [Debug - 8:07:32 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:34.577 [info] [Debug - 8:07:34 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:34.847 [info] [Debug - 8:07:34 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:35.203 [info] [Debug - 8:07:35 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:40.114 [info] [Debug - 8:07:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:07:40.116 [info] [Debug - 8:07:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5243806c-130b-4104-a258-418998322c73]
+2025-03-30 20:07:40.120 [info] [Error - 8:07:40 p. m.] [TabbyApiClient] Health check request failed. [5243806c-130b-4104-a258-418998322c73] {
+  "error": {}
+}
+2025-03-30 20:07:47.024 [info] [Debug - 8:07:47 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:48.517 [info] [Debug - 8:07:48 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:48.802 [info] [Debug - 8:07:48 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:51.563 [info] [Debug - 8:07:51 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:53.119 [info] [Debug - 8:07:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:07:53.733 [info] [Debug - 8:07:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:08:10.113 [info] [Debug - 8:08:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:08:10.114 [info] [Debug - 8:08:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [7cf0120c-4718-4436-acab-f72d297f176a]
+2025-03-30 20:08:10.118 [info] [Error - 8:08:10 p. m.] [TabbyApiClient] Health check request failed. [7cf0120c-4718-4436-acab-f72d297f176a] {
+  "error": {}
+}
+2025-03-30 20:08:18.707 [info] [Debug - 8:08:18 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:08:35.631 [info] [Debug - 8:08:35 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:08:36.002 [info] [Debug - 8:08:36 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:08:40.113 [info] [Debug - 8:08:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:08:40.114 [info] [Debug - 8:08:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [d4a4ec9b-824c-4be5-91be-3a60e971eeeb]
+2025-03-30 20:08:40.119 [info] [Error - 8:08:40 p. m.] [TabbyApiClient] Health check request failed. [d4a4ec9b-824c-4be5-91be-3a60e971eeeb] {
+  "error": {}
+}
+2025-03-30 20:09:00.962 [info] [Debug - 8:09:00 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:01.324 [info] [Debug - 8:09:01 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:02.011 [info] [Debug - 8:09:02 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:06.858 [info] [Debug - 8:09:06 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:07.305 [info] [Debug - 8:09:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:08.895 [info] [Debug - 8:09:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:10.114 [info] [Debug - 8:09:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:09:10.115 [info] [Debug - 8:09:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [4c3de7f9-0cf6-430a-87c8-d285d019c95f]
+2025-03-30 20:09:10.120 [info] [Error - 8:09:10 p. m.] [TabbyApiClient] Health check request failed. [4c3de7f9-0cf6-430a-87c8-d285d019c95f] {
+  "error": {}
+}
+2025-03-30 20:09:11.776 [info] [Debug - 8:09:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:12.167 [info] [Debug - 8:09:12 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:12.683 [info] [Debug - 8:09:12 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:31.628 [info] [Debug - 8:09:31 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:33.199 [info] [Debug - 8:09:33 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:35.689 [info] [Debug - 8:09:35 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:36.395 [info] [Debug - 8:09:36 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:39.327 [info] [Debug - 8:09:39 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:39.810 [info] [Debug - 8:09:39 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:40.114 [info] [Debug - 8:09:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:09:40.115 [info] [Debug - 8:09:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5b7f5113-7bcd-4515-9060-1583c4f77688]
+2025-03-30 20:09:40.119 [info] [Error - 8:09:40 p. m.] [TabbyApiClient] Health check request failed. [5b7f5113-7bcd-4515-9060-1583c4f77688] {
+  "error": {}
+}
+2025-03-30 20:09:40.205 [info] [Debug - 8:09:40 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:40.492 [info] [Debug - 8:09:40 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:46.261 [info] [Debug - 8:09:46 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:47.264 [info] [Debug - 8:09:47 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:47.958 [info] [Debug - 8:09:47 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:49.839 [info] [Debug - 8:09:49 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:51.273 [info] [Debug - 8:09:51 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:53.633 [info] [Debug - 8:09:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:09:54.658 [info] [Debug - 8:09:54 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:10:10.114 [info] [Debug - 8:10:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:10:10.115 [info] [Debug - 8:10:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [0de0b03e-63bd-4c86-8bd6-342ad99f3975]
+2025-03-30 20:10:10.118 [info] [Error - 8:10:10 p. m.] [TabbyApiClient] Health check request failed. [0de0b03e-63bd-4c86-8bd6-342ad99f3975] {
+  "error": {}
+}
+2025-03-30 20:10:23.573 [info] [Debug - 8:10:23 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:10:29.827 [info] [Debug - 8:10:29 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:10:36.964 [info] [Debug - 8:10:36 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:10:37.550 [info] [Debug - 8:10:37 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:10:40.114 [info] [Debug - 8:10:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:10:40.115 [info] [Debug - 8:10:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ab9e0bb6-9b38-49aa-9836-797d254f9833]
+2025-03-30 20:10:40.119 [info] [Error - 8:10:40 p. m.] [TabbyApiClient] Health check request failed. [ab9e0bb6-9b38-49aa-9836-797d254f9833] {
+  "error": {}
+}
+2025-03-30 20:11:10.115 [info] [Debug - 8:11:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:11:10.118 [info] [Debug - 8:11:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [37a78bbe-19be-4e8e-9991-620aa6774972]
+2025-03-30 20:11:10.124 [info] [Error - 8:11:10 p. m.] [TabbyApiClient] Health check request failed. [37a78bbe-19be-4e8e-9991-620aa6774972] {
+  "error": {}
+}
+2025-03-30 20:11:23.359 [info] [Debug - 8:11:23 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:11:37.359 [info] [Debug - 8:11:37 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:11:40.116 [info] [Debug - 8:11:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:11:40.117 [info] [Debug - 8:11:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [0918ea23-4c52-4c32-bd36-3eb18280d970]
+2025-03-30 20:11:40.121 [info] [Error - 8:11:40 p. m.] [TabbyApiClient] Health check request failed. [0918ea23-4c52-4c32-bd36-3eb18280d970] {
+  "error": {}
+}
+2025-03-30 20:11:48.724 [info] [Debug - 8:11:48 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:11:50.000 [info] [Debug - 8:11:49 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:11:53.541 [info] [Debug - 8:11:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:11:54.964 [info] [Debug - 8:11:54 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:12:10.117 [info] [Debug - 8:12:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:12:10.118 [info] [Debug - 8:12:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cdbe7f6b-3c20-468e-bd83-00cf3f700eb1]
+2025-03-30 20:12:10.122 [info] [Error - 8:12:10 p. m.] [TabbyApiClient] Health check request failed. [cdbe7f6b-3c20-468e-bd83-00cf3f700eb1] {
+  "error": {}
+}
+2025-03-30 20:12:40.116 [info] [Debug - 8:12:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:12:40.117 [info] [Debug - 8:12:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [1e4f818e-6ed1-4e54-84fc-64d70fbe9e62]
+2025-03-30 20:12:40.124 [info] [Error - 8:12:40 p. m.] [TabbyApiClient] Health check request failed. [1e4f818e-6ed1-4e54-84fc-64d70fbe9e62] {
+  "error": {}
+}
+2025-03-30 20:13:10.118 [info] [Debug - 8:13:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:13:10.119 [info] [Debug - 8:13:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [9bc670d6-e351-4306-9bc7-e6b6e9dffe4e]
+2025-03-30 20:13:10.125 [info] [Error - 8:13:10 p. m.] [TabbyApiClient] Health check request failed. [9bc670d6-e351-4306-9bc7-e6b6e9dffe4e] {
+  "error": {}
+}
+2025-03-30 20:13:39.818 [info] [Debug - 8:13:39 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:13:40.118 [info] [Debug - 8:13:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:13:40.119 [info] [Debug - 8:13:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [732a7b86-eee9-4c78-bb57-6f5812839331]
+2025-03-30 20:13:40.125 [info] [Error - 8:13:40 p. m.] [TabbyApiClient] Health check request failed. [732a7b86-eee9-4c78-bb57-6f5812839331] {
+  "error": {}
+}
+2025-03-30 20:13:43.095 [info] [Debug - 8:13:43 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:13:44.490 [info] [Debug - 8:13:44 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:13:58.952 [info] [Debug - 8:13:58 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:00.083 [info] [Debug - 8:14:00 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:00.475 [info] [Debug - 8:14:00 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:01.580 [info] [Debug - 8:14:01 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:07.702 [info] [Debug - 8:14:07 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:10.116 [info] [Debug - 8:14:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:14:10.118 [info] [Debug - 8:14:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [688e8cea-375f-42f5-8df2-1e5b08eb5e3e]
+2025-03-30 20:14:10.123 [info] [Error - 8:14:10 p. m.] [TabbyApiClient] Health check request failed. [688e8cea-375f-42f5-8df2-1e5b08eb5e3e] {
+  "error": {}
+}
+2025-03-30 20:14:11.601 [info] [Debug - 8:14:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:11.967 [info] [Debug - 8:14:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:12.241 [info] [Debug - 8:14:12 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:12.647 [info] [Debug - 8:14:12 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:14:40.117 [info] [Debug - 8:14:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:14:40.119 [info] [Debug - 8:14:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8f300a3f-b727-4069-ab13-85446ae314c0]
+2025-03-30 20:14:40.124 [info] [Error - 8:14:40 p. m.] [TabbyApiClient] Health check request failed. [8f300a3f-b727-4069-ab13-85446ae314c0] {
+  "error": {}
+}
+2025-03-30 20:15:10.118 [info] [Debug - 8:15:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:15:10.119 [info] [Debug - 8:15:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [60f98b20-345e-4aa7-bc03-36ad1f582514]
+2025-03-30 20:15:10.122 [info] [Error - 8:15:10 p. m.] [TabbyApiClient] Health check request failed. [60f98b20-345e-4aa7-bc03-36ad1f582514] {
+  "error": {}
+}
+2025-03-30 20:15:40.117 [info] [Debug - 8:15:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:15:40.118 [info] [Debug - 8:15:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [09a7bc91-decb-4da5-bd30-4d4f6f750a2b]
+2025-03-30 20:15:40.123 [info] [Error - 8:15:40 p. m.] [TabbyApiClient] Health check request failed. [09a7bc91-decb-4da5-bd30-4d4f6f750a2b] {
+  "error": {}
+}
+2025-03-30 20:16:09.480 [info] [Debug - 8:16:09 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:16:10.121 [info] [Debug - 8:16:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:16:10.122 [info] [Debug - 8:16:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [255af80f-ff9c-4426-8a34-c1ec6114880f]
+2025-03-30 20:16:10.127 [info] [Error - 8:16:10 p. m.] [TabbyApiClient] Health check request failed. [255af80f-ff9c-4426-8a34-c1ec6114880f] {
+  "error": {}
+}
+2025-03-30 20:16:22.163 [info] [Debug - 8:16:22 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:16:40.119 [info] [Debug - 8:16:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:16:40.120 [info] [Debug - 8:16:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [43ee1a0c-37c6-42f3-bf59-284f2088b426]
+2025-03-30 20:16:40.125 [info] [Error - 8:16:40 p. m.] [TabbyApiClient] Health check request failed. [43ee1a0c-37c6-42f3-bf59-284f2088b426] {
+  "error": {}
+}
+2025-03-30 20:16:47.237 [info] [Debug - 8:16:47 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:16:59.029 [info] [Debug - 8:16:59 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:10.118 [info] [Debug - 8:17:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:17:10.119 [info] [Debug - 8:17:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [3c9cf496-6b8c-4163-a1cb-974c0f95da8c]
+2025-03-30 20:17:10.124 [info] [Error - 8:17:10 p. m.] [TabbyApiClient] Health check request failed. [3c9cf496-6b8c-4163-a1cb-974c0f95da8c] {
+  "error": {}
+}
+2025-03-30 20:17:11.201 [info] [Debug - 8:17:11 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:24.488 [info] [Debug - 8:17:24 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:31.806 [info] [Debug - 8:17:31 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:35.290 [info] [Debug - 8:17:35 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:36.919 [info] [Debug - 8:17:36 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:40.123 [info] [Debug - 8:17:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:17:40.124 [info] [Debug - 8:17:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [30b4d607-731e-4d37-b18f-7ef23f2bc016]
+2025-03-30 20:17:40.126 [info] [Error - 8:17:40 p. m.] [TabbyApiClient] Health check request failed. [30b4d607-731e-4d37-b18f-7ef23f2bc016] {
+  "error": {}
+}
+2025-03-30 20:17:40.370 [info] [Debug - 8:17:40 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:17:41.973 [info] [Debug - 8:17:41 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:18:10.121 [info] [Debug - 8:18:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:18:10.122 [info] [Debug - 8:18:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [39a06067-1b84-483e-b669-fe485550ec94]
+2025-03-30 20:18:10.126 [info] [Error - 8:18:10 p. m.] [TabbyApiClient] Health check request failed. [39a06067-1b84-483e-b669-fe485550ec94] {
+  "error": {}
+}
+2025-03-30 20:18:40.122 [info] [Debug - 8:18:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:18:40.125 [info] [Debug - 8:18:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [233ae862-3af4-438f-a2c0-2e6fbf6db6c4]
+2025-03-30 20:18:40.133 [info] [Error - 8:18:40 p. m.] [TabbyApiClient] Health check request failed. [233ae862-3af4-438f-a2c0-2e6fbf6db6c4] {
+  "error": {}
+}
+2025-03-30 20:19:10.121 [info] [Debug - 8:19:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:19:10.123 [info] [Debug - 8:19:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [eb4879a9-110e-4079-aa61-be7c569af5f6]
+2025-03-30 20:19:10.125 [info] [Error - 8:19:10 p. m.] [TabbyApiClient] Health check request failed. [eb4879a9-110e-4079-aa61-be7c569af5f6] {
+  "error": {}
+}
+2025-03-30 20:19:40.122 [info] [Debug - 8:19:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:19:40.124 [info] [Debug - 8:19:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [83df6e70-f3a0-42ab-bba3-9a1bb106c1e1]
+2025-03-30 20:19:40.129 [info] [Error - 8:19:40 p. m.] [TabbyApiClient] Health check request failed. [83df6e70-f3a0-42ab-bba3-9a1bb106c1e1] {
+  "error": {}
+}
+2025-03-30 20:19:53.728 [info] [Debug - 8:19:53 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-30 20:20:10.123 [info] [Debug - 8:20:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:20:10.125 [info] [Debug - 8:20:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [6bc8039c-a8c7-49f1-a78e-a1b1057f32fd]
+2025-03-30 20:20:10.130 [info] [Error - 8:20:10 p. m.] [TabbyApiClient] Health check request failed. [6bc8039c-a8c7-49f1-a78e-a1b1057f32fd] {
+  "error": {}
+}
+2025-03-30 20:20:40.123 [info] [Debug - 8:20:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:20:40.124 [info] [Debug - 8:20:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f7c17541-d880-48c4-9370-b1d55475e103]
+2025-03-30 20:20:40.127 [info] [Error - 8:20:40 p. m.] [TabbyApiClient] Health check request failed. [f7c17541-d880-48c4-9370-b1d55475e103] {
+  "error": {}
+}
+2025-03-30 20:21:10.124 [info] [Debug - 8:21:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:21:10.126 [info] [Debug - 8:21:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [0484f6ff-80d9-4e62-b95d-fefd94f51336]
+2025-03-30 20:21:10.131 [info] [Error - 8:21:10 p. m.] [TabbyApiClient] Health check request failed. [0484f6ff-80d9-4e62-b95d-fefd94f51336] {
+  "error": {}
+}
+2025-03-30 20:21:40.126 [info] [Debug - 8:21:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:21:40.128 [info] [Debug - 8:21:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [4f99539f-45e4-4c6c-bbe2-e0376bba50e5]
+2025-03-30 20:21:40.134 [info] [Error - 8:21:40 p. m.] [TabbyApiClient] Health check request failed. [4f99539f-45e4-4c6c-bbe2-e0376bba50e5] {
+  "error": {}
+}
+2025-03-30 20:22:10.124 [info] [Debug - 8:22:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:22:10.125 [info] [Debug - 8:22:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [71322fb9-9d03-428a-a143-52b31bc3aa45]
+2025-03-30 20:22:10.129 [info] [Error - 8:22:10 p. m.] [TabbyApiClient] Health check request failed. [71322fb9-9d03-428a-a143-52b31bc3aa45] {
+  "error": {}
+}
+2025-03-30 20:22:40.126 [info] [Debug - 8:22:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:22:40.128 [info] [Debug - 8:22:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cbe417a2-ad76-48f4-91b0-6c05aace9fd2]
+2025-03-30 20:22:40.131 [info] [Error - 8:22:40 p. m.] [TabbyApiClient] Health check request failed. [cbe417a2-ad76-48f4-91b0-6c05aace9fd2] {
+  "error": {}
+}
+2025-03-30 20:23:10.125 [info] [Debug - 8:23:10 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:23:10.127 [info] [Debug - 8:23:10 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [decf91b5-2925-4b75-bd2c-01ca5b67a7ef]
+2025-03-30 20:23:10.132 [info] [Error - 8:23:10 p. m.] [TabbyApiClient] Health check request failed. [decf91b5-2925-4b75-bd2c-01ca5b67a7ef] {
+  "error": {}
+}
+2025-03-30 20:23:40.126 [info] [Debug - 8:23:40 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-30 20:23:40.128 [info] [Debug - 8:23:40 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8ef6d166-9f3d-43e6-b38b-bb86344ce0dc]
+2025-03-30 20:23:40.133 [info] [Error - 8:23:40 p. m.] [TabbyApiClient] Health check request failed. [8ef6d166-9f3d-43e6-b38b-bb86344ce0dc] {
+  "error": {}
+}
+2025-03-30 20:24:06.011 [info] [Tabby] Deactivating Tabby extension...

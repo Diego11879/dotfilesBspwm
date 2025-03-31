@@ -1,0 +1,91 @@
+2025-03-26 21:24:45.524 [info] [Tabby] Activating Tabby extension...
+2025-03-26 21:24:45.524 [info] [Tabby] Tabby extension activated.
+2025-03-26 21:24:45.524 [info] [Tabby] GitProvider created.
+2025-03-26 21:24:45.524 [info] [Tabby] Launching language server tabby-agent...
+2025-03-26 21:24:45.524 [error] [VSCodeKeyBindingManager] Error reading keybindings: A system error occurred (ENOENT: no such file or directory, open '/home/diego/.config/Code/User/keybindings.json')
+2025-03-26 21:24:45.972 [info] (node:4572) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newAttached listeners added to [wx]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+
+2025-03-26 21:24:46.003 [info] [Warn  - 9:24:45 p. m.] [DataStore] Failed to read /home/diego/.tabby-client/agent/data.json: Error: ENOENT: no such file or directory, open '/home/diego/.tabby-client/agent/data.json'
+2025-03-26 21:24:46.005 [info] [Info  - 9:24:46 p. m.] [ConfigFile] Config file not exist, creating template config file.
+2025-03-26 21:24:46.006 [info] [Debug - 9:24:46 p. m.] [CertsLoader] Loading extra certs from /etc/ssl/certs/ca-certificates.crt.
+2025-03-26 21:24:46.008 [info] [Debug - 9:24:46 p. m.] [CertsLoader] Loaded 151 extra certs.
+2025-03-26 21:24:46.009 [info] [Info  - 9:24:46 p. m.] [TabbyLSP] Initializing...
+2025-03-26 21:24:46.009 [info] [Debug - 9:24:46 p. m.] [TabbyLSP] Initializing internal components...
+2025-03-26 21:24:46.028 [info] [Info  - 9:24:46 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-26 21:24:46.030 [info] (node:4572) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+
+2025-03-26 21:24:46.032 [info] [Warn  - 9:24:46 p. m.] [DataStore] Failed to read /home/diego/.tabby-client/agent/data.json: Error: ENOENT: no such file or directory, open '/home/diego/.tabby-client/agent/data.json'
+2025-03-26 21:24:46.033 [info] [Info  - 9:24:46 p. m.] [Telemetry] Anonymous usage tracking disabled: false
+2025-03-26 21:24:46.039 [info] [Info  - 9:24:46 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-26 21:24:46.039 [info] [Debug - 9:24:46 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ba599260-08c6-4586-891d-f98f72134dad]
+2025-03-26 21:24:46.084 [info] [Debug - 9:24:46 p. m.] [TabbyLSP] Internal components initialized.
+2025-03-26 21:24:46.086 [info] [Debug - 9:24:46 p. m.] [TabbyLSP] Initializing feature components...
+2025-03-26 21:24:46.087 [info] [Info  - 9:24:46 p. m.] [RecentlyChangedCodeSearch] Created code search engine for recently changed files.
+2025-03-26 21:24:46.088 [info] [Debug - 9:24:46 p. m.] [TabbyLSP] Feature components initialized.
+2025-03-26 21:24:46.089 [info] [Info  - 9:24:46 p. m.] [TabbyLSP] Initialize done.
+2025-03-26 21:24:46.144 [info] [Tabby] Language server tabby-agent launched.
+2025-03-26 21:24:46.150 [info] [Error - 9:24:46 p. m.] [TabbyApiClient] Health check request failed. [ba599260-08c6-4586-891d-f98f72134dad] {
+  "error": {}
+}
+2025-03-26 21:24:46.155 [info] [Info  - 9:24:46 p. m.] [TabbyLSP] Received initialized notification.
+2025-03-26 21:25:16.088 [info] [Debug - 9:25:16 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-26 21:25:16.088 [info] [Debug - 9:25:16 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [1f08e583-7605-4303-a6f9-d2e075bb85bb]
+2025-03-26 21:25:16.151 [info] [Error - 9:25:16 p. m.] [TabbyApiClient] Health check request failed. [1f08e583-7605-4303-a6f9-d2e075bb85bb] {
+  "error": {}
+}
+2025-03-26 21:25:32.258 [info] [Debug - 9:25:32 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:25:42.567 [info] [Tabby] Deactivating Tabby extension...
+2025-03-26 21:25:48.634 [info] [Tabby] Activating Tabby extension...
+2025-03-26 21:25:48.634 [info] [Tabby] Tabby extension activated.
+2025-03-26 21:25:48.634 [info] [Tabby] Failed to create GitProvider, retry after 1000ms
+2025-03-26 21:25:48.634 [error] [VSCodeKeyBindingManager] Error reading keybindings: A system error occurred (ENOENT: no such file or directory, open '/home/diego/.config/Code/User/keybindings.json')
+2025-03-26 21:25:49.644 [info] [Tabby] GitProvider created.
+2025-03-26 21:25:49.648 [info] [Tabby] Launching language server tabby-agent...
+2025-03-26 21:25:50.324 [info] (node:4709) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newAttached listeners added to [wx]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+
+2025-03-26 21:25:50.385 [info] [Debug - 9:25:50 p. m.] [CertsLoader] Loading extra certs from /etc/ssl/certs/ca-certificates.crt.
+2025-03-26 21:25:50.387 [info] [Debug - 9:25:50 p. m.] [CertsLoader] Loaded 151 extra certs.
+2025-03-26 21:25:50.388 [info] [Info  - 9:25:50 p. m.] [TabbyLSP] Initializing...
+2025-03-26 21:25:50.389 [info] [Debug - 9:25:50 p. m.] [TabbyLSP] Initializing internal components...
+2025-03-26 21:25:50.390 [info] [Info  - 9:25:50 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-26 21:25:50.392 [info] [Info  - 9:25:50 p. m.] [Telemetry] Anonymous usage tracking disabled: false
+2025-03-26 21:25:50.393 [info] [Info  - 9:25:50 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-26 21:25:50.393 [info] [Debug - 9:25:50 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [dc86426a-534c-42f6-954d-65d060ecd413]
+2025-03-26 21:25:50.424 [info] [Debug - 9:25:50 p. m.] [TabbyLSP] Internal components initialized.
+2025-03-26 21:25:50.426 [info] [Debug - 9:25:50 p. m.] [TabbyLSP] Initializing feature components...
+2025-03-26 21:25:50.428 [info] [Info  - 9:25:50 p. m.] [RecentlyChangedCodeSearch] Created code search engine for recently changed files.
+2025-03-26 21:25:50.431 [info] [Debug - 9:25:50 p. m.] [TabbyLSP] Feature components initialized.
+2025-03-26 21:25:50.432 [info] [Info  - 9:25:50 p. m.] [TabbyLSP] Initialize done.
+2025-03-26 21:25:50.464 [info] (node:4709) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+
+2025-03-26 21:25:50.475 [info] [Tabby] Language server tabby-agent launched.
+2025-03-26 21:25:50.481 [info] [Info  - 9:25:50 p. m.] [TabbyLSP] Received initialized notification.
+2025-03-26 21:25:50.489 [info] [Error - 9:25:50 p. m.] [TabbyApiClient] Health check request failed. [dc86426a-534c-42f6-954d-65d060ecd413] {
+  "error": {}
+}
+2025-03-26 21:25:50.734 [info] [Debug - 9:25:50 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:25:51.539 [info] [Debug - 9:25:51 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:25:52.914 [info] [Debug - 9:25:52 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:20.427 [info] [Debug - 9:26:20 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-26 21:26:20.427 [info] [Debug - 9:26:20 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [d1ed05a8-b1ef-4a65-82f1-aef89588caf2]
+2025-03-26 21:26:20.434 [info] [Error - 9:26:20 p. m.] [TabbyApiClient] Health check request failed. [d1ed05a8-b1ef-4a65-82f1-aef89588caf2] {
+  "error": {}
+}
+2025-03-26 21:26:27.053 [info] [Debug - 9:26:27 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:28.894 [info] [Debug - 9:26:28 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:29.414 [info] [Debug - 9:26:29 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:30.167 [info] [Debug - 9:26:30 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:39.333 [info] [Debug - 9:26:39 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:26:50.425 [info] [Debug - 9:26:50 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-26 21:26:50.428 [info] [Debug - 9:26:50 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [1d680539-001a-4713-8716-7c0dded55525]
+2025-03-26 21:26:50.434 [info] [Error - 9:26:50 p. m.] [TabbyApiClient] Health check request failed. [1d680539-001a-4713-8716-7c0dded55525] {
+  "error": {}
+}
+2025-03-26 21:26:52.513 [info] [Debug - 9:26:52 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:27:04.953 [info] [Debug - 9:27:04 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:27:08.364 [info] [Debug - 9:27:08 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:27:09.294 [info] [Debug - 9:27:09 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:27:10.190 [info] [Debug - 9:27:10 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-26 21:27:18.089 [info] [Tabby] Deactivating Tabby extension...

@@ -1,0 +1,17 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #262423;
+  color: #efdfae;
+}
+
+h1 {
+  color: #f7b125;
+}
+
+a {
+  color: #66620d;
+}
+
+.banner {
+  width: 100%;
+}

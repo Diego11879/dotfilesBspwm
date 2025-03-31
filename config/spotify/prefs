@@ -1,0 +1,14 @@
+autologin.canonical_username="acucnumin"
+autologin.username="acucnumin"
+autologin.blob="0XXIKtZyptLGo8ozXpRfrbjvhkAuGGjDfEzsJKUfDuLogL5/HfVSA9A0BoRWbnWzUOcuHHXL9ve4M2Giz+odhcs8TShGuUGA7+OshFVtoqRu6rXywjRl6JzKsqA+aFTrw5DbKgapUvGovZuAtK0/7xBe7GUlyXw9kkHgZeJDwsNGOELDBbW89ADobCCgoK+Nb5ZOxHt+wVS6F5czWfjiUNdg3wAHDG+iR+1CMFlC9J2e30titLvvWs3E1dR313Mf"
+autologin.saved_credentials="{\"acucnumin\":[\"acucnumin\",\"0XXIKtZyptLGo8ozXpRfrbjvhkAuGGjDfEzsJKUfDuLogL5/HfVSA9A0BoRWbnWzUOcuHHXL9ve4M2Giz+odhcs8TShGuUGA7+OshFVtoqRu6rXywjRl6JzKsqA+aFTrw5DbKgapUvGovZuAtK0/7xBe7GUlyXw9kkHgZeJDwsNGOELDBbW89ADobCCgoK+Nb5ZOxHt+wVS6F5czWfjiUNdg3wAHDG+iR+1CMFlC9J2e30titLvvWs3E1dR313Mf\"]}"
+app.window.state.saved=true
+app.window.position.width=1892
+es.send-on-startup=true
+core.clock_delta=1
+app.window.position.saved=true
+app.window.position.height=1010
+app.window.position.y=56
+storage.last-location="/home/diego/.cache/spotify/Storage"
+app.window.position.x=14
+app.last-launched-version="1.2.59.514.g834e17d4"

@@ -1,0 +1,91 @@
+{
+	"notifications": [
+		{
+			"guid": "0d02f99d-821a-4b07-a2d7-29c8c4d6b875",
+			"timestamp": 1742999786052,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "You must initialize pass before logging in to Docker Desktop",
+				"icon": "error",
+				"type": "action-result",
+				"operation": "user-log-in",
+				"title": "Unable to log in",
+				"actionText": "Learn how",
+				"action": {
+					"action": "open-credential-store-instructions",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "140309e6-e20b-4a8b-9094-b22bb8f1df2e",
+			"timestamp": 1742999808601,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "More Docker. Easy Access. New Streamlined Plans.",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "Learn more",
+				"action": {
+					"action": "open-external-url",
+					"params": {
+						"url": "https://www.docker.com/blog/november-2024-updated-plans-announcement/"
+					}
+				}
+			}
+		},
+		{
+			"guid": "49c91190-a799-4fbe-9b0a-c70abeae5bdb",
+			"timestamp": 1742999809604,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Multi-platform image support with containerd is here, try it now!",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "Enable",
+				"action": {
+					"action": "enable-c8d",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "a61ce702-8412-41a9-8230-8c20b900d595",
+			"timestamp": 1743265244830,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"ephemeral": false,
+				"icon": "sparkles",
+				"message": "Components have been updated.",
+				"actionText": "View",
+				"action": {
+					"action": "view-notification-content"
+				},
+				"type": "update",
+				"fullContent": "# What's new in 4.39.0\n - The Docker AI Agent offers deeper context on docker images, containers, and volumes, delivers faster support, and enables more user actions via the DD GUI and CLI\n- The Docker Desktop CLI is now generally available. We have added support to print logs and to update Docker Desktop from the CLI.\n- Support multi-platform images via enabling users to pick a specific platform in `docker history`\n"
+			}
+		},
+		{
+			"guid": "a2c291dc-90c6-4873-a9c3-16e0c06f6fcd",
+			"timestamp": 1743265259163,
+			"read": false,
+			"displayState": "foreground",
+			"notification": {
+				"message": "How was your experience updating Docker Desktop to a newer version?",
+				"icon": "campaign",
+				"type": "feedback",
+				"actionText": "Give feedback",
+				"action": {
+					"action": "show-survey-dialog",
+					"params": {
+						"type": "updateComplete"
+					}
+				}
+			}
+		}
+	]
+}

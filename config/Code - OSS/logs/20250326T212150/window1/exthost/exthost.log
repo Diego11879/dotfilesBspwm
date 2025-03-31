@@ -1,0 +1,444 @@
+2025-03-26 21:21:53.629 [info] Extension host with pid 4390 started
+2025-03-26 21:21:53.823 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-26 21:21:54.031 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-26 21:21:54.047 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-26 21:21:54.141 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-26 21:21:54.244 [info] Eager extensions activated
+2025-03-26 21:21:54.277 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:21:54.286 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:23:19.614 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:24:22.959 [info] ExtensionService#_doActivateExtension KylinIDETeam.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:24:45.359 [info] ExtensionService#_doActivateExtension TabbyML.vscode-tabby, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:24:56.771 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:08.622 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:25:08.640 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:25:08.728 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:25:42.533 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-26 21:25:42.574 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.574 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.575 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.575 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.575 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.575 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:25:42.576 [error] Error: Method not implemented.
+	at Jc.clear (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:103:4186)
+	at pp.cleanUp (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:9458)
+	at pp.shutdown (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:8643)
+	at pp.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:8067)
+	at pp.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:84:30294)
+	at Xc.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:103:6116)
+	at Object.hK [as deactivate] (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:220:1773)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11726)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-03-26 21:25:42.583 [info] Extension host with pid 4390 exiting with code 0
+2025-03-26 21:25:44.381 [info] Extension host with pid 4659 started
+2025-03-26 21:25:44.381 [info] Skipping acquiring lock for /home/diego/.config/Code - OSS/User/workspaceStorage/33b4c959c57f115758249949501f2ee9.
+2025-03-26 21:25:44.430 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-03-26 21:25:44.462 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-26 21:25:44.532 [info] Eager extensions activated
+2025-03-26 21:25:44.543 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:44.549 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:44.586 [info] ExtensionService#_doActivateExtension KylinIDETeam.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:44.753 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:48.325 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-03-26 21:25:48.456 [info] ExtensionService#_doActivateExtension TabbyML.vscode-tabby, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:48.541 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-03-26 21:25:49.425 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-03-26 21:25:49.548 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-26 21:27:04.544 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:27:04.563 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:27:04.687 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-26 21:27:18.038 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-26 21:27:18.093 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.093 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.094 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at z.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11307)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.094 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.094 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.094 [error] Canceled: Canceled
+	at new dR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111670)
+	at qy.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:116281)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113775)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41039)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:39873)
+	at Sw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:41559)
+	at Sw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40636)
+	at Sw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:37375)
+	at setContext (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:11:223480)
+	at z._updateContextKeys (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:13252)
+	at onChanged (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11614)
+	at A.unregister (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11752)
+	at A.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:10479)
+	at Object.dispose (/home/diego/.vscode-oss/extensions/kylinideteam.gitlens-0.1.10-universal/dist/gitlens.js:1:11854)
+	at hi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-03-26 21:27:18.095 [error] Error: Method not implemented.
+	at Jc.clear (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:103:4186)
+	at pp.cleanUp (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:9458)
+	at pp.shutdown (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:8643)
+	at pp.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:81:8067)
+	at pp.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:84:30294)
+	at Xc.stop (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:103:6116)
+	at Object.hK [as deactivate] (/home/diego/.vscode-oss/extensions/tabbyml.vscode-tabby-1.24.0-universal/dist/node/extension.js:220:1773)
+	at zz.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11726)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9876
+	at Array.map (<anonymous>)
+	at zz.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9864)
+	at zz.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10107)
+	at OI.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:15108)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:190:11656)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-03-26 21:27:18.105 [info] Extension host with pid 4659 exiting with code 0

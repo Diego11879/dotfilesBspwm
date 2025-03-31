@@ -1,0 +1,8 @@
+#!/bin/bash
+polybar &
+nitrogen --restore &
+cbatticon &
+nm-applet &
+clipcatd &
+dunst &
+picom &

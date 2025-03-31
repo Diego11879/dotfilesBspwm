@@ -1,0 +1,470 @@
+2025-03-28 15:09:29.193 [info] [Tabby] Activating Tabby extension...
+2025-03-28 15:09:29.193 [info] [Tabby] Tabby extension activated.
+2025-03-28 15:09:29.193 [info] [Tabby] GitProvider created.
+2025-03-28 15:09:29.193 [info] [Tabby] Launching language server tabby-agent...
+2025-03-28 15:09:29.193 [error] [VSCodeKeyBindingManager] Error reading keybindings: A system error occurred (ENOENT: no such file or directory, open '/home/diego/.config/Code/User/keybindings.json')
+2025-03-28 15:09:29.688 [info] (node:8593) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newAttached listeners added to [wx]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+
+2025-03-28 15:09:29.760 [info] [Debug - 3:09:29 p. m.] [CertsLoader] Loading extra certs from /etc/ssl/certs/ca-certificates.crt.
+2025-03-28 15:09:29.762 [info] [Debug - 3:09:29 p. m.] [CertsLoader] Loaded 151 extra certs.
+2025-03-28 15:09:29.766 [info] [Info  - 3:09:29 p. m.] [TabbyLSP] Initializing...
+2025-03-28 15:09:29.768 [info] [Debug - 3:09:29 p. m.] [TabbyLSP] Initializing internal components...
+2025-03-28 15:09:29.769 [info] [Info  - 3:09:29 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-28 15:09:29.770 [info] [Info  - 3:09:29 p. m.] [Telemetry] Anonymous usage tracking disabled: false
+2025-03-28 15:09:29.772 [info] [Info  - 3:09:29 p. m.] [Proxy] Using proxy from environment variables.
+2025-03-28 15:09:29.773 [info] [Debug - 3:09:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [2474e382-d390-46ff-8e56-ef6e272f545b]
+2025-03-28 15:09:29.806 [info] [Debug - 3:09:29 p. m.] [TabbyLSP] Internal components initialized.
+2025-03-28 15:09:29.807 [info] [Debug - 3:09:29 p. m.] [TabbyLSP] Initializing feature components...
+2025-03-28 15:09:29.809 [info] [Info  - 3:09:29 p. m.] [RecentlyChangedCodeSearch] Created code search engine for recently changed files.
+2025-03-28 15:09:29.810 [info] [Debug - 3:09:29 p. m.] [TabbyLSP] Feature components initialized.
+2025-03-28 15:09:29.811 [info] [Info  - 3:09:29 p. m.] [TabbyLSP] Initialize done.
+2025-03-28 15:09:29.833 [info] (node:8593) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+
+2025-03-28 15:09:29.838 [info] [Tabby] Language server tabby-agent launched.
+2025-03-28 15:09:29.841 [info] [Info  - 3:09:29 p. m.] [TabbyLSP] Received initialized notification.
+2025-03-28 15:09:29.846 [info] [Error - 3:09:29 p. m.] [TabbyApiClient] Health check request failed. [2474e382-d390-46ff-8e56-ef6e272f545b] {
+  "error": {}
+}
+2025-03-28 15:09:30.100 [info] [Debug - 3:09:30 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-28 15:09:31.868 [info] [Debug - 3:09:31 p. m.] [CodeLensProvider] codeLenses: []
+2025-03-28 15:09:59.806 [info] [Debug - 3:09:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:09:59.807 [info] [Debug - 3:09:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [746a48c6-ebd0-47de-874f-22498304a3ab]
+2025-03-28 15:09:59.810 [info] [Error - 3:09:59 p. m.] [TabbyApiClient] Health check request failed. [746a48c6-ebd0-47de-874f-22498304a3ab] {
+  "error": {}
+}
+2025-03-28 15:10:29.808 [info] [Debug - 3:10:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:10:29.809 [info] [Debug - 3:10:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8c19cced-a441-48f5-ba8a-117ba5b4d8fb]
+2025-03-28 15:10:29.819 [info] [Error - 3:10:29 p. m.] [TabbyApiClient] Health check request failed. [8c19cced-a441-48f5-ba8a-117ba5b4d8fb] {
+  "error": {}
+}
+2025-03-28 15:10:59.809 [info] [Debug - 3:10:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:10:59.811 [info] [Debug - 3:10:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [64ea8e4f-2667-408e-a4cc-4545fe4ad1ab]
+2025-03-28 15:10:59.815 [info] [Error - 3:10:59 p. m.] [TabbyApiClient] Health check request failed. [64ea8e4f-2667-408e-a4cc-4545fe4ad1ab] {
+  "error": {}
+}
+2025-03-28 15:11:29.810 [info] [Debug - 3:11:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:11:29.812 [info] [Debug - 3:11:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [bc8f3a0e-14ff-4ca9-a093-4a47062406bb]
+2025-03-28 15:11:29.816 [info] [Error - 3:11:29 p. m.] [TabbyApiClient] Health check request failed. [bc8f3a0e-14ff-4ca9-a093-4a47062406bb] {
+  "error": {}
+}
+2025-03-28 15:11:59.810 [info] [Debug - 3:11:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:11:59.811 [info] [Debug - 3:11:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [1341476b-9fc3-4b35-9c98-a045f904904e]
+2025-03-28 15:11:59.815 [info] [Error - 3:11:59 p. m.] [TabbyApiClient] Health check request failed. [1341476b-9fc3-4b35-9c98-a045f904904e] {
+  "error": {}
+}
+2025-03-28 15:12:29.809 [info] [Debug - 3:12:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:12:29.811 [info] [Debug - 3:12:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [68260e4d-4fd5-4be2-a385-ec80352dff7a]
+2025-03-28 15:12:29.814 [info] [Error - 3:12:29 p. m.] [TabbyApiClient] Health check request failed. [68260e4d-4fd5-4be2-a385-ec80352dff7a] {
+  "error": {}
+}
+2025-03-28 15:12:59.812 [info] [Debug - 3:12:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:12:59.814 [info] [Debug - 3:12:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [2cf364c4-8b3b-4764-ab69-a32dbf372460]
+2025-03-28 15:12:59.819 [info] [Error - 3:12:59 p. m.] [TabbyApiClient] Health check request failed. [2cf364c4-8b3b-4764-ab69-a32dbf372460] {
+  "error": {}
+}
+2025-03-28 15:13:29.809 [info] [Debug - 3:13:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:13:29.811 [info] [Debug - 3:13:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [65f154b9-7d33-4730-862f-e3a2e3ff1813]
+2025-03-28 15:13:29.814 [info] [Error - 3:13:29 p. m.] [TabbyApiClient] Health check request failed. [65f154b9-7d33-4730-862f-e3a2e3ff1813] {
+  "error": {}
+}
+2025-03-28 15:13:59.810 [info] [Debug - 3:13:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:13:59.812 [info] [Debug - 3:13:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [00c1c90a-b394-4c83-b26b-55559bc7504f]
+2025-03-28 15:13:59.815 [info] [Error - 3:13:59 p. m.] [TabbyApiClient] Health check request failed. [00c1c90a-b394-4c83-b26b-55559bc7504f] {
+  "error": {}
+}
+2025-03-28 15:14:29.811 [info] [Debug - 3:14:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:14:29.812 [info] [Debug - 3:14:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [242a7c6f-3ac7-4cb9-a7b8-964905a85703]
+2025-03-28 15:14:29.817 [info] [Error - 3:14:29 p. m.] [TabbyApiClient] Health check request failed. [242a7c6f-3ac7-4cb9-a7b8-964905a85703] {
+  "error": {}
+}
+2025-03-28 15:14:59.813 [info] [Debug - 3:14:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:14:59.814 [info] [Debug - 3:14:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c38fbfc2-793e-4df1-90bd-d5943a285ce0]
+2025-03-28 15:14:59.817 [info] [Error - 3:14:59 p. m.] [TabbyApiClient] Health check request failed. [c38fbfc2-793e-4df1-90bd-d5943a285ce0] {
+  "error": {}
+}
+2025-03-28 15:15:29.813 [info] [Debug - 3:15:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:15:29.814 [info] [Debug - 3:15:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8c43b004-ba53-4da5-aad5-9654c9b7b61e]
+2025-03-28 15:15:29.817 [info] [Error - 3:15:29 p. m.] [TabbyApiClient] Health check request failed. [8c43b004-ba53-4da5-aad5-9654c9b7b61e] {
+  "error": {}
+}
+2025-03-28 15:15:59.813 [info] [Debug - 3:15:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:15:59.814 [info] [Debug - 3:15:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cd9d2cfb-002e-4c29-83c8-907a71240677]
+2025-03-28 15:15:59.818 [info] [Error - 3:15:59 p. m.] [TabbyApiClient] Health check request failed. [cd9d2cfb-002e-4c29-83c8-907a71240677] {
+  "error": {}
+}
+2025-03-28 15:16:29.813 [info] [Debug - 3:16:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:16:29.814 [info] [Debug - 3:16:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f76cd8a6-dd35-496f-bb84-6c8b797cc545]
+2025-03-28 15:16:29.817 [info] [Error - 3:16:29 p. m.] [TabbyApiClient] Health check request failed. [f76cd8a6-dd35-496f-bb84-6c8b797cc545] {
+  "error": {}
+}
+2025-03-28 15:16:59.812 [info] [Debug - 3:16:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:16:59.813 [info] [Debug - 3:16:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ad31f104-3e5f-4119-bf44-952a9322a6fc]
+2025-03-28 15:16:59.817 [info] [Error - 3:16:59 p. m.] [TabbyApiClient] Health check request failed. [ad31f104-3e5f-4119-bf44-952a9322a6fc] {
+  "error": {}
+}
+2025-03-28 15:17:29.812 [info] [Debug - 3:17:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:17:29.813 [info] [Debug - 3:17:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [1bebe110-f69e-423e-b4a3-a66a411309ac]
+2025-03-28 15:17:29.817 [info] [Error - 3:17:29 p. m.] [TabbyApiClient] Health check request failed. [1bebe110-f69e-423e-b4a3-a66a411309ac] {
+  "error": {}
+}
+2025-03-28 15:17:59.813 [info] [Debug - 3:17:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:17:59.814 [info] [Debug - 3:17:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [054c38d3-fb35-490b-8d42-1de514103fa7]
+2025-03-28 15:17:59.817 [info] [Error - 3:17:59 p. m.] [TabbyApiClient] Health check request failed. [054c38d3-fb35-490b-8d42-1de514103fa7] {
+  "error": {}
+}
+2025-03-28 15:18:29.814 [info] [Debug - 3:18:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:18:29.815 [info] [Debug - 3:18:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [799308e5-8cb1-47dd-a17f-1bbc86c5201b]
+2025-03-28 15:18:29.820 [info] [Error - 3:18:29 p. m.] [TabbyApiClient] Health check request failed. [799308e5-8cb1-47dd-a17f-1bbc86c5201b] {
+  "error": {}
+}
+2025-03-28 15:18:59.814 [info] [Debug - 3:18:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:18:59.815 [info] [Debug - 3:18:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [a866478c-f568-4d3a-baeb-fa91ea03bd36]
+2025-03-28 15:18:59.820 [info] [Error - 3:18:59 p. m.] [TabbyApiClient] Health check request failed. [a866478c-f568-4d3a-baeb-fa91ea03bd36] {
+  "error": {}
+}
+2025-03-28 15:19:29.815 [info] [Debug - 3:19:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:19:29.817 [info] [Debug - 3:19:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ff2f184f-5786-4424-82e3-a2ebc3bf5a26]
+2025-03-28 15:19:29.819 [info] [Error - 3:19:29 p. m.] [TabbyApiClient] Health check request failed. [ff2f184f-5786-4424-82e3-a2ebc3bf5a26] {
+  "error": {}
+}
+2025-03-28 15:19:59.814 [info] [Debug - 3:19:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:19:59.815 [info] [Debug - 3:19:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [3b28099e-3702-4966-9187-37dc327027d9]
+2025-03-28 15:19:59.818 [info] [Error - 3:19:59 p. m.] [TabbyApiClient] Health check request failed. [3b28099e-3702-4966-9187-37dc327027d9] {
+  "error": {}
+}
+2025-03-28 15:20:29.814 [info] [Debug - 3:20:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:20:29.815 [info] [Debug - 3:20:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c1bc3aed-253c-41f0-8bf5-6b5a3e82f67b]
+2025-03-28 15:20:29.819 [info] [Error - 3:20:29 p. m.] [TabbyApiClient] Health check request failed. [c1bc3aed-253c-41f0-8bf5-6b5a3e82f67b] {
+  "error": {}
+}
+2025-03-28 15:20:59.815 [info] [Debug - 3:20:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:20:59.817 [info] [Debug - 3:20:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [03f1e741-f28e-46bd-88c5-24527dcd2468]
+2025-03-28 15:20:59.820 [info] [Error - 3:20:59 p. m.] [TabbyApiClient] Health check request failed. [03f1e741-f28e-46bd-88c5-24527dcd2468] {
+  "error": {}
+}
+2025-03-28 15:21:29.816 [info] [Debug - 3:21:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:21:29.817 [info] [Debug - 3:21:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [edbd8338-f37a-46fc-a3ac-3fd10ad8409f]
+2025-03-28 15:21:29.820 [info] [Error - 3:21:29 p. m.] [TabbyApiClient] Health check request failed. [edbd8338-f37a-46fc-a3ac-3fd10ad8409f] {
+  "error": {}
+}
+2025-03-28 15:21:59.815 [info] [Debug - 3:21:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:21:59.816 [info] [Debug - 3:21:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [bd4b5744-d9db-41d8-9fce-03487f803314]
+2025-03-28 15:21:59.819 [info] [Error - 3:21:59 p. m.] [TabbyApiClient] Health check request failed. [bd4b5744-d9db-41d8-9fce-03487f803314] {
+  "error": {}
+}
+2025-03-28 15:22:29.815 [info] [Debug - 3:22:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:22:29.816 [info] [Debug - 3:22:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5749b2d1-2037-41f5-a193-98fb3f5a36de]
+2025-03-28 15:22:29.818 [info] [Error - 3:22:29 p. m.] [TabbyApiClient] Health check request failed. [5749b2d1-2037-41f5-a193-98fb3f5a36de] {
+  "error": {}
+}
+2025-03-28 15:22:59.816 [info] [Debug - 3:22:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:22:59.817 [info] [Debug - 3:22:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [64540ba1-5d58-45ee-b57f-f3c801c8cad8]
+2025-03-28 15:22:59.822 [info] [Error - 3:22:59 p. m.] [TabbyApiClient] Health check request failed. [64540ba1-5d58-45ee-b57f-f3c801c8cad8] {
+  "error": {}
+}
+2025-03-28 15:23:29.817 [info] [Debug - 3:23:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:23:29.818 [info] [Debug - 3:23:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [86dbb396-729b-4ae6-8406-b1e569ba658b]
+2025-03-28 15:23:29.821 [info] [Error - 3:23:29 p. m.] [TabbyApiClient] Health check request failed. [86dbb396-729b-4ae6-8406-b1e569ba658b] {
+  "error": {}
+}
+2025-03-28 15:23:59.818 [info] [Debug - 3:23:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:23:59.820 [info] [Debug - 3:23:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [0282a121-23b1-49a1-8e76-d503caacc73c]
+2025-03-28 15:23:59.825 [info] [Error - 3:23:59 p. m.] [TabbyApiClient] Health check request failed. [0282a121-23b1-49a1-8e76-d503caacc73c] {
+  "error": {}
+}
+2025-03-28 15:24:29.818 [info] [Debug - 3:24:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:24:29.819 [info] [Debug - 3:24:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [55f9507f-48dd-4612-8c1b-0aa007147b6a]
+2025-03-28 15:24:29.823 [info] [Error - 3:24:29 p. m.] [TabbyApiClient] Health check request failed. [55f9507f-48dd-4612-8c1b-0aa007147b6a] {
+  "error": {}
+}
+2025-03-28 15:24:59.819 [info] [Debug - 3:24:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:24:59.821 [info] [Debug - 3:24:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [0884f4d6-35e0-4a2e-883c-09949024aa0e]
+2025-03-28 15:24:59.826 [info] [Error - 3:24:59 p. m.] [TabbyApiClient] Health check request failed. [0884f4d6-35e0-4a2e-883c-09949024aa0e] {
+  "error": {}
+}
+2025-03-28 15:25:29.820 [info] [Debug - 3:25:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:25:29.822 [info] [Debug - 3:25:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [e8db5436-5b7c-4d62-b2c4-1c3a536b353f]
+2025-03-28 15:25:29.825 [info] [Error - 3:25:29 p. m.] [TabbyApiClient] Health check request failed. [e8db5436-5b7c-4d62-b2c4-1c3a536b353f] {
+  "error": {}
+}
+2025-03-28 15:25:59.819 [info] [Debug - 3:25:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:25:59.820 [info] [Debug - 3:25:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [a1c36f06-cfe9-48d1-9074-ebbafb865dbf]
+2025-03-28 15:25:59.825 [info] [Error - 3:25:59 p. m.] [TabbyApiClient] Health check request failed. [a1c36f06-cfe9-48d1-9074-ebbafb865dbf] {
+  "error": {}
+}
+2025-03-28 15:26:29.819 [info] [Debug - 3:26:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:26:29.820 [info] [Debug - 3:26:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [71d779da-1024-4b11-b0bd-252c42a00f5d]
+2025-03-28 15:26:29.826 [info] [Error - 3:26:29 p. m.] [TabbyApiClient] Health check request failed. [71d779da-1024-4b11-b0bd-252c42a00f5d] {
+  "error": {}
+}
+2025-03-28 15:26:59.819 [info] [Debug - 3:26:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:26:59.820 [info] [Debug - 3:26:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [fe446b16-a1c3-4e87-b5e3-5a6d6fd0e063]
+2025-03-28 15:26:59.825 [info] [Error - 3:26:59 p. m.] [TabbyApiClient] Health check request failed. [fe446b16-a1c3-4e87-b5e3-5a6d6fd0e063] {
+  "error": {}
+}
+2025-03-28 15:27:29.821 [info] [Debug - 3:27:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:27:29.823 [info] [Debug - 3:27:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [45cd164e-c9a7-4be0-934f-3b25895d22c4]
+2025-03-28 15:27:29.826 [info] [Error - 3:27:29 p. m.] [TabbyApiClient] Health check request failed. [45cd164e-c9a7-4be0-934f-3b25895d22c4] {
+  "error": {}
+}
+2025-03-28 15:27:59.821 [info] [Debug - 3:27:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:27:59.823 [info] [Debug - 3:27:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [76c044ae-d1f0-46db-9bc0-f1fd0336f6a9]
+2025-03-28 15:27:59.826 [info] [Error - 3:27:59 p. m.] [TabbyApiClient] Health check request failed. [76c044ae-d1f0-46db-9bc0-f1fd0336f6a9] {
+  "error": {}
+}
+2025-03-28 15:28:29.820 [info] [Debug - 3:28:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:28:29.821 [info] [Debug - 3:28:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [e95155fc-7b32-4f27-8626-54dc331d329e]
+2025-03-28 15:28:29.826 [info] [Error - 3:28:29 p. m.] [TabbyApiClient] Health check request failed. [e95155fc-7b32-4f27-8626-54dc331d329e] {
+  "error": {}
+}
+2025-03-28 15:28:59.821 [info] [Debug - 3:28:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:28:59.822 [info] [Debug - 3:28:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [364122cd-3a0e-4720-a3a0-d750406f9d57]
+2025-03-28 15:28:59.827 [info] [Error - 3:28:59 p. m.] [TabbyApiClient] Health check request failed. [364122cd-3a0e-4720-a3a0-d750406f9d57] {
+  "error": {}
+}
+2025-03-28 15:29:29.820 [info] [Debug - 3:29:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:29:29.821 [info] [Debug - 3:29:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cce1fcde-559c-45a3-aefd-fc3857bfbc0f]
+2025-03-28 15:29:29.826 [info] [Error - 3:29:29 p. m.] [TabbyApiClient] Health check request failed. [cce1fcde-559c-45a3-aefd-fc3857bfbc0f] {
+  "error": {}
+}
+2025-03-28 15:29:59.821 [info] [Debug - 3:29:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:29:59.823 [info] [Debug - 3:29:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5123fc1f-a9ac-40ac-8990-2e5b2756087d]
+2025-03-28 15:29:59.827 [info] [Error - 3:29:59 p. m.] [TabbyApiClient] Health check request failed. [5123fc1f-a9ac-40ac-8990-2e5b2756087d] {
+  "error": {}
+}
+2025-03-28 15:30:29.821 [info] [Debug - 3:30:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:30:29.822 [info] [Debug - 3:30:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [88350a82-cb0e-46aa-b247-931e2effffe2]
+2025-03-28 15:30:29.824 [info] [Error - 3:30:29 p. m.] [TabbyApiClient] Health check request failed. [88350a82-cb0e-46aa-b247-931e2effffe2] {
+  "error": {}
+}
+2025-03-28 15:30:59.821 [info] [Debug - 3:30:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:30:59.822 [info] [Debug - 3:30:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [b008575e-5e43-4858-a996-8e84f3f73a8c]
+2025-03-28 15:30:59.826 [info] [Error - 3:30:59 p. m.] [TabbyApiClient] Health check request failed. [b008575e-5e43-4858-a996-8e84f3f73a8c] {
+  "error": {}
+}
+2025-03-28 15:31:29.821 [info] [Debug - 3:31:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:31:29.822 [info] [Debug - 3:31:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [51da63cd-f64e-49c8-b8ef-e142833597ec]
+2025-03-28 15:31:29.827 [info] [Error - 3:31:29 p. m.] [TabbyApiClient] Health check request failed. [51da63cd-f64e-49c8-b8ef-e142833597ec] {
+  "error": {}
+}
+2025-03-28 15:31:59.823 [info] [Debug - 3:31:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:31:59.824 [info] [Debug - 3:31:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [6f03ef06-682b-434e-88b6-fe6a243f0e99]
+2025-03-28 15:31:59.828 [info] [Error - 3:31:59 p. m.] [TabbyApiClient] Health check request failed. [6f03ef06-682b-434e-88b6-fe6a243f0e99] {
+  "error": {}
+}
+2025-03-28 15:32:29.821 [info] [Debug - 3:32:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:32:29.822 [info] [Debug - 3:32:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [eae32e26-76bc-41b5-82af-af97d728154d]
+2025-03-28 15:32:29.825 [info] [Error - 3:32:29 p. m.] [TabbyApiClient] Health check request failed. [eae32e26-76bc-41b5-82af-af97d728154d] {
+  "error": {}
+}
+2025-03-28 15:32:59.823 [info] [Debug - 3:32:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:32:59.825 [info] [Debug - 3:32:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [72802c6d-5e59-496c-baca-d52ca06bd5ce]
+2025-03-28 15:32:59.830 [info] [Error - 3:32:59 p. m.] [TabbyApiClient] Health check request failed. [72802c6d-5e59-496c-baca-d52ca06bd5ce] {
+  "error": {}
+}
+2025-03-28 15:33:29.824 [info] [Debug - 3:33:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:33:29.827 [info] [Debug - 3:33:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5379b2e0-25fb-453f-90a3-0813ba07b202]
+2025-03-28 15:33:29.830 [info] [Error - 3:33:29 p. m.] [TabbyApiClient] Health check request failed. [5379b2e0-25fb-453f-90a3-0813ba07b202] {
+  "error": {}
+}
+2025-03-28 15:33:59.827 [info] [Debug - 3:33:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:33:59.831 [info] [Debug - 3:33:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c1bde0bf-d953-4124-8ac0-9cb3b2bc6e8a]
+2025-03-28 15:33:59.847 [info] [Error - 3:33:59 p. m.] [TabbyApiClient] Health check request failed. [c1bde0bf-d953-4124-8ac0-9cb3b2bc6e8a] {
+  "error": {}
+}
+2025-03-28 15:34:29.830 [info] [Debug - 3:34:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:34:29.832 [info] [Debug - 3:34:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c68295f1-1025-43d9-bb28-9e78fe8da007]
+2025-03-28 15:34:29.838 [info] [Error - 3:34:29 p. m.] [TabbyApiClient] Health check request failed. [c68295f1-1025-43d9-bb28-9e78fe8da007] {
+  "error": {}
+}
+2025-03-28 15:34:59.828 [info] [Debug - 3:34:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:34:59.828 [info] [Debug - 3:34:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ad8bafda-a348-4946-9a70-7e50ec4bbaa8]
+2025-03-28 15:34:59.831 [info] [Error - 3:34:59 p. m.] [TabbyApiClient] Health check request failed. [ad8bafda-a348-4946-9a70-7e50ec4bbaa8] {
+  "error": {}
+}
+2025-03-28 15:35:29.829 [info] [Debug - 3:35:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:35:29.830 [info] [Debug - 3:35:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [24837877-93cf-4ae1-90f3-81d62ea45563]
+2025-03-28 15:35:29.835 [info] [Error - 3:35:29 p. m.] [TabbyApiClient] Health check request failed. [24837877-93cf-4ae1-90f3-81d62ea45563] {
+  "error": {}
+}
+2025-03-28 15:35:59.829 [info] [Debug - 3:35:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:35:59.829 [info] [Debug - 3:35:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [dfd9e0fd-6e49-42cf-9c76-ded343185737]
+2025-03-28 15:35:59.834 [info] [Error - 3:35:59 p. m.] [TabbyApiClient] Health check request failed. [dfd9e0fd-6e49-42cf-9c76-ded343185737] {
+  "error": {}
+}
+2025-03-28 15:36:29.830 [info] [Debug - 3:36:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:36:29.831 [info] [Debug - 3:36:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [4b7ce5b0-fa01-488d-97b7-a64f93f9f2d9]
+2025-03-28 15:36:29.843 [info] [Error - 3:36:29 p. m.] [TabbyApiClient] Health check request failed. [4b7ce5b0-fa01-488d-97b7-a64f93f9f2d9] {
+  "error": {}
+}
+2025-03-28 15:36:59.831 [info] [Debug - 3:36:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:36:59.832 [info] [Debug - 3:36:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [30847df2-e62a-4874-85ae-e3adaf7f5ba2]
+2025-03-28 15:36:59.838 [info] [Error - 3:36:59 p. m.] [TabbyApiClient] Health check request failed. [30847df2-e62a-4874-85ae-e3adaf7f5ba2] {
+  "error": {}
+}
+2025-03-28 15:37:29.835 [info] [Debug - 3:37:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:37:29.837 [info] [Debug - 3:37:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [752e60a4-3609-471e-a99a-db6f6a036215]
+2025-03-28 15:37:29.844 [info] [Error - 3:37:29 p. m.] [TabbyApiClient] Health check request failed. [752e60a4-3609-471e-a99a-db6f6a036215] {
+  "error": {}
+}
+2025-03-28 15:37:59.834 [info] [Debug - 3:37:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:37:59.839 [info] [Debug - 3:37:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [d18393de-542c-482f-a62e-8ab6128acc6b]
+2025-03-28 15:37:59.851 [info] [Error - 3:37:59 p. m.] [TabbyApiClient] Health check request failed. [d18393de-542c-482f-a62e-8ab6128acc6b] {
+  "error": {}
+}
+2025-03-28 15:38:29.833 [info] [Debug - 3:38:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:38:29.834 [info] [Debug - 3:38:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [2982880d-d17e-441f-b92a-09c3db1c481c]
+2025-03-28 15:38:29.838 [info] [Error - 3:38:29 p. m.] [TabbyApiClient] Health check request failed. [2982880d-d17e-441f-b92a-09c3db1c481c] {
+  "error": {}
+}
+2025-03-28 15:38:59.834 [info] [Debug - 3:38:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:38:59.835 [info] [Debug - 3:38:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cc1d4cd3-bc50-4b76-95f2-ff0bc53e97f2]
+2025-03-28 15:38:59.843 [info] [Error - 3:38:59 p. m.] [TabbyApiClient] Health check request failed. [cc1d4cd3-bc50-4b76-95f2-ff0bc53e97f2] {
+  "error": {}
+}
+2025-03-28 15:39:29.836 [info] [Debug - 3:39:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:39:29.837 [info] [Debug - 3:39:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [d340d818-b2ff-4774-8618-ebaa5fc667be]
+2025-03-28 15:39:29.902 [info] [Error - 3:39:29 p. m.] [TabbyApiClient] Health check request failed. [d340d818-b2ff-4774-8618-ebaa5fc667be] {
+  "error": {}
+}
+2025-03-28 15:39:59.839 [info] [Debug - 3:39:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:39:59.840 [info] [Debug - 3:39:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [b2acffc4-6eaf-4a32-a260-3eed1d94d160]
+2025-03-28 15:39:59.844 [info] [Error - 3:39:59 p. m.] [TabbyApiClient] Health check request failed. [b2acffc4-6eaf-4a32-a260-3eed1d94d160] {
+  "error": {}
+}
+2025-03-28 15:40:29.834 [info] [Debug - 3:40:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:40:29.835 [info] [Debug - 3:40:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8333bad6-a60f-422f-96e3-2da155537aa5]
+2025-03-28 15:40:29.838 [info] [Error - 3:40:29 p. m.] [TabbyApiClient] Health check request failed. [8333bad6-a60f-422f-96e3-2da155537aa5] {
+  "error": {}
+}
+2025-03-28 15:40:59.834 [info] [Debug - 3:40:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:40:59.836 [info] [Debug - 3:40:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f8f35a2d-6ff7-41f5-9e20-4113d327d9c6]
+2025-03-28 15:40:59.842 [info] [Error - 3:40:59 p. m.] [TabbyApiClient] Health check request failed. [f8f35a2d-6ff7-41f5-9e20-4113d327d9c6] {
+  "error": {}
+}
+2025-03-28 15:41:29.836 [info] [Debug - 3:41:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:41:29.837 [info] [Debug - 3:41:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [e53f5c8e-d503-422e-a370-08e03acd1fb8]
+2025-03-28 15:41:29.844 [info] [Error - 3:41:29 p. m.] [TabbyApiClient] Health check request failed. [e53f5c8e-d503-422e-a370-08e03acd1fb8] {
+  "error": {}
+}
+2025-03-28 15:41:59.835 [info] [Debug - 3:41:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:41:59.837 [info] [Debug - 3:41:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8d46086b-eaf5-441d-ab89-e29a5ffa8ca7]
+2025-03-28 15:41:59.841 [info] [Error - 3:41:59 p. m.] [TabbyApiClient] Health check request failed. [8d46086b-eaf5-441d-ab89-e29a5ffa8ca7] {
+  "error": {}
+}
+2025-03-28 15:42:29.834 [info] [Debug - 3:42:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:42:29.835 [info] [Debug - 3:42:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [16d0e9e6-a564-44aa-adc7-65d8e2d64ee0]
+2025-03-28 15:42:29.895 [info] [Error - 3:42:29 p. m.] [TabbyApiClient] Health check request failed. [16d0e9e6-a564-44aa-adc7-65d8e2d64ee0] {
+  "error": {}
+}
+2025-03-28 15:42:59.835 [info] [Debug - 3:42:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:42:59.839 [info] [Debug - 3:42:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [b2a2bc59-16e7-4fb1-a406-2b8f1669439e]
+2025-03-28 15:42:59.845 [info] [Error - 3:42:59 p. m.] [TabbyApiClient] Health check request failed. [b2a2bc59-16e7-4fb1-a406-2b8f1669439e] {
+  "error": {}
+}
+2025-03-28 15:43:29.836 [info] [Debug - 3:43:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:43:29.837 [info] [Debug - 3:43:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5586d958-3c63-40d0-9f47-e494fb87efdb]
+2025-03-28 15:43:29.840 [info] [Error - 3:43:29 p. m.] [TabbyApiClient] Health check request failed. [5586d958-3c63-40d0-9f47-e494fb87efdb] {
+  "error": {}
+}
+2025-03-28 15:43:59.837 [info] [Debug - 3:43:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:43:59.839 [info] [Debug - 3:43:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f997252a-28d2-49cd-8808-8e4441006d25]
+2025-03-28 15:43:59.902 [info] [Error - 3:43:59 p. m.] [TabbyApiClient] Health check request failed. [f997252a-28d2-49cd-8808-8e4441006d25] {
+  "error": {}
+}
+2025-03-28 15:44:29.843 [info] [Debug - 3:44:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:44:29.843 [info] [Debug - 3:44:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [ceaa2a53-77c8-48bf-80fc-0306d89336fb]
+2025-03-28 15:44:29.846 [info] [Error - 3:44:29 p. m.] [TabbyApiClient] Health check request failed. [ceaa2a53-77c8-48bf-80fc-0306d89336fb] {
+  "error": {}
+}
+2025-03-28 15:44:59.841 [info] [Debug - 3:44:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:44:59.843 [info] [Debug - 3:44:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [6bb5e628-39a4-434e-8cde-be1f7cd52a5d]
+2025-03-28 15:44:59.851 [info] [Error - 3:44:59 p. m.] [TabbyApiClient] Health check request failed. [6bb5e628-39a4-434e-8cde-be1f7cd52a5d] {
+  "error": {}
+}
+2025-03-28 15:45:29.840 [info] [Debug - 3:45:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:45:29.842 [info] [Debug - 3:45:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f33ef18f-780c-421b-b3db-2b3bd6a2cb01]
+2025-03-28 15:45:29.846 [info] [Error - 3:45:29 p. m.] [TabbyApiClient] Health check request failed. [f33ef18f-780c-421b-b3db-2b3bd6a2cb01] {
+  "error": {}
+}
+2025-03-28 15:45:59.846 [info] [Debug - 3:45:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:45:59.850 [info] [Debug - 3:45:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [901fc822-1c3c-490a-a590-9ac202f83c5f]
+2025-03-28 15:45:59.856 [info] [Error - 3:45:59 p. m.] [TabbyApiClient] Health check request failed. [901fc822-1c3c-490a-a590-9ac202f83c5f] {
+  "error": {}
+}
+2025-03-28 15:46:29.839 [info] [Debug - 3:46:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:46:29.841 [info] [Debug - 3:46:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [4a7659ab-3c0a-40ee-8cb3-7c7d02a15e9f]
+2025-03-28 15:46:29.858 [info] [Error - 3:46:29 p. m.] [TabbyApiClient] Health check request failed. [4a7659ab-3c0a-40ee-8cb3-7c7d02a15e9f] {
+  "error": {}
+}
+2025-03-28 15:46:59.841 [info] [Debug - 3:46:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:46:59.842 [info] [Debug - 3:46:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [8cfa6eca-e381-4777-adda-d4ad967e3e5c]
+2025-03-28 15:46:59.846 [info] [Error - 3:46:59 p. m.] [TabbyApiClient] Health check request failed. [8cfa6eca-e381-4777-adda-d4ad967e3e5c] {
+  "error": {}
+}
+2025-03-28 15:47:29.843 [info] [Debug - 3:47:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:47:29.846 [info] [Debug - 3:47:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c6479fae-5c53-45e1-a8e9-ef3c75f01042]
+2025-03-28 15:47:29.852 [info] [Error - 3:47:29 p. m.] [TabbyApiClient] Health check request failed. [c6479fae-5c53-45e1-a8e9-ef3c75f01042] {
+  "error": {}
+}
+2025-03-28 15:47:59.841 [info] [Debug - 3:47:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:47:59.843 [info] [Debug - 3:47:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [c02ec6ce-6742-4b72-9899-d05e73979a96]
+2025-03-28 15:47:59.849 [info] [Error - 3:47:59 p. m.] [TabbyApiClient] Health check request failed. [c02ec6ce-6742-4b72-9899-d05e73979a96] {
+  "error": {}
+}
+2025-03-28 15:48:29.841 [info] [Debug - 3:48:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:48:29.842 [info] [Debug - 3:48:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [857148b3-ded8-4d88-af2f-3900fedf1f12]
+2025-03-28 15:48:29.846 [info] [Error - 3:48:29 p. m.] [TabbyApiClient] Health check request failed. [857148b3-ded8-4d88-af2f-3900fedf1f12] {
+  "error": {}
+}
+2025-03-28 15:48:59.847 [info] [Debug - 3:48:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:48:59.848 [info] [Debug - 3:48:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [e5a7c77b-aff3-46fe-9fee-294a67f966d2]
+2025-03-28 15:48:59.851 [info] [Error - 3:48:59 p. m.] [TabbyApiClient] Health check request failed. [e5a7c77b-aff3-46fe-9fee-294a67f966d2] {
+  "error": {}
+}
+2025-03-28 15:49:29.843 [info] [Debug - 3:49:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:49:29.845 [info] [Debug - 3:49:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [73a877ba-ad75-481f-8eff-53c82b89e67e]
+2025-03-28 15:49:29.905 [info] [Error - 3:49:29 p. m.] [TabbyApiClient] Health check request failed. [73a877ba-ad75-481f-8eff-53c82b89e67e] {
+  "error": {}
+}
+2025-03-28 15:49:59.846 [info] [Debug - 3:49:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:49:59.851 [info] [Debug - 3:49:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [50bafc4a-8aed-48e2-bdc2-3ffbc9262c4a]
+2025-03-28 15:49:59.856 [info] [Error - 3:49:59 p. m.] [TabbyApiClient] Health check request failed. [50bafc4a-8aed-48e2-bdc2-3ffbc9262c4a] {
+  "error": {}
+}
+2025-03-28 15:50:29.844 [info] [Debug - 3:50:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:50:29.845 [info] [Debug - 3:50:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [3ce9f6a6-b4e6-425a-8353-c74e6729e404]
+2025-03-28 15:50:29.849 [info] [Error - 3:50:29 p. m.] [TabbyApiClient] Health check request failed. [3ce9f6a6-b4e6-425a-8353-c74e6729e404] {
+  "error": {}
+}
+2025-03-28 15:50:59.843 [info] [Debug - 3:50:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:50:59.844 [info] [Debug - 3:50:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [972a6ac8-5e18-42c4-aab8-9bb9c591b275]
+2025-03-28 15:50:59.847 [info] [Error - 3:50:59 p. m.] [TabbyApiClient] Health check request failed. [972a6ac8-5e18-42c4-aab8-9bb9c591b275] {
+  "error": {}
+}
+2025-03-28 15:51:29.844 [info] [Debug - 3:51:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:51:29.845 [info] [Debug - 3:51:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [76c4fcf5-13e0-4712-9576-307d357cd11b]
+2025-03-28 15:51:29.848 [info] [Error - 3:51:29 p. m.] [TabbyApiClient] Health check request failed. [76c4fcf5-13e0-4712-9576-307d357cd11b] {
+  "error": {}
+}
+2025-03-28 15:51:59.847 [info] [Debug - 3:51:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:51:59.848 [info] [Debug - 3:51:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [cbcc95ab-c744-4e1c-98fb-88328f35df17]
+2025-03-28 15:51:59.852 [info] [Error - 3:51:59 p. m.] [TabbyApiClient] Health check request failed. [cbcc95ab-c744-4e1c-98fb-88328f35df17] {
+  "error": {}
+}
+2025-03-28 15:52:29.846 [info] [Debug - 3:52:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:52:29.847 [info] [Debug - 3:52:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [22ec5a8d-0c38-4a23-a045-3428e9cd7a30]
+2025-03-28 15:52:29.850 [info] [Error - 3:52:29 p. m.] [TabbyApiClient] Health check request failed. [22ec5a8d-0c38-4a23-a045-3428e9cd7a30] {
+  "error": {}
+}
+2025-03-28 15:52:59.847 [info] [Debug - 3:52:59 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:52:59.847 [info] [Debug - 3:52:59 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [f172ba39-1961-4488-828e-741244a7a9dd]
+2025-03-28 15:52:59.852 [info] [Error - 3:52:59 p. m.] [TabbyApiClient] Health check request failed. [f172ba39-1961-4488-828e-741244a7a9dd] {
+  "error": {}
+}
+2025-03-28 15:53:29.846 [info] [Debug - 3:53:29 p. m.] [TabbyApiClient] Trying to reconnect...
+2025-03-28 15:53:29.847 [info] [Debug - 3:53:29 p. m.] [TabbyApiClient] Health check request: GET http://localhost:8080/v1/health. [5670832b-bd78-4dca-816a-e8bd31be5765]
+2025-03-28 15:53:29.852 [info] [Error - 3:53:29 p. m.] [TabbyApiClient] Health check request failed. [5670832b-bd78-4dca-816a-e8bd31be5765] {
+  "error": {}
+}

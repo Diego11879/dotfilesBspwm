@@ -1,0 +1,24 @@
+2025-03-28 13:55:12.972 [info] Started local extension host with pid 4011.
+2025-03-28 13:55:14.173 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-28 13:55:14.174 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-28 13:55:14.182 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-03-28 13:55:15.434 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.434 [error] Error while getting the latest version for the extension ktiays.aicursor. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.434 [error] Error while getting the latest version for the extension kylinideteam.gitlens. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.435 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.435 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.440 [error] Error while getting the latest version for the extension pkief.material-icon-theme. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.445 [error] Error while getting the latest version for the extension tabbyml.vscode-tabby. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.445 [error] Error while getting the latest version for the extension usernamehw.errorlens. Cannot read properties of undefined (reading 'replace')
+2025-03-28 13:55:15.792 [info] [perf] Render performance baseline is 57ms
+2025-03-28 14:57:29.728 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:31:17251)

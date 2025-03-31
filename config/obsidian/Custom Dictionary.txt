@@ -1,0 +1,7 @@
+API
+Digitalizar
+GPS
+geolocalización
+implementación
+monitoreo
+checksum_v1 = 3728e8dcc72890821d9c3634e6502f3a

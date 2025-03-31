@@ -1,0 +1,32 @@
+/* ROFI Gruvbox Dark Theme */
+* {
+    selected-normal-foreground:  rgba ( 235, 219, 178, 100 % ); /* Gruvbox fg */
+    foreground:                  rgba ( 213, 196, 161, 100 % ); /* Light fg */
+    normal-foreground:           @foreground;
+    alternate-normal-background: rgba ( 40, 40, 40, 10 % ); /* Darker bg */
+    red:                         rgba ( 204, 36, 29, 100 % ); /* Gruvbox red */
+    selected-urgent-foreground:  rgba ( 251, 241, 199, 100 % ); /* Light bg */
+    blue:                        rgba ( 69, 133, 136, 100 % ); /* Gruvbox blue */
+    urgent-foreground:           rgba ( 204, 36, 29, 100 % ); /* Same as red */
+    alternate-urgent-background: rgba ( 80, 73, 69, 90 % ); /* Gruvbox dark */
+    active-foreground:           rgba ( 215, 153, 33, 100 % ); /* Gruvbox yellow */
+    lightbg:                     rgba ( 50, 48, 47, 100 % ); /* Darker brown */
+    selected-active-foreground:  rgba ( 251, 241, 199, 100 % ); /* Light bg */
+    alternate-active-background: rgba ( 40, 40, 40, 88 % ); /* Darker bg */
+    background:                  rgba ( 40, 40, 40, 88 % ); /* Darker bg */
+    alternate-normal-foreground: @foreground;
+    normal-background:           rgba ( 40, 40, 40, 10 % ); /* Darker bg */
+    lightfg:                     rgba ( 189, 174, 147, 100 % ); /* Gruvbox light fg */
+    selected-normal-background:  rgba ( 29, 32, 33, 100 % ); /* Darker bg */
+    border-color:                rgba ( 124, 111, 100, 100 % ); /* Gruvbox gray */
+    spacing:                     2;
+    separatorcolor:              rgba ( 40, 40, 40, 10 % ); /* Darker bg */
+    urgent-background:           rgba ( 40, 40, 40, 15 % ); /* Darker bg */
+    selected-urgent-background:  rgba ( 204, 36, 29, 100 % ); /* Gruvbox red */
+    alternate-urgent-foreground: @urgent-foreground;
+    background-color:            rgba ( 0, 0, 0, 0 % ); /* Transparent */
+    alternate-active-foreground: @active-foreground;
+    active-background:           rgba ( 29, 32, 33, 17 % ); /* Darker bg */
+    selected-active-background:  rgba ( 24, 25, 26, 100 % ); /* Darker bg */
+}
+

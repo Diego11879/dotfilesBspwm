@@ -1,0 +1,13 @@
+2025-03-28 15:09:25.134 [info] Started local extension host with pid 8520.
+2025-03-28 15:09:26.084 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-28 15:09:26.084 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-03-28 15:09:26.164 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-03-28 15:09:27.775 [error] Error while getting the latest version for the extension jdinhlife.gruvbox. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.775 [error] Error while getting the latest version for the extension ktiays.aicursor. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.776 [error] Error while getting the latest version for the extension kylinideteam.gitlens. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.776 [error] Error while getting the latest version for the extension ms-python.debugpy. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.777 [error] Error while getting the latest version for the extension ms-python.python. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.778 [error] Error while getting the latest version for the extension pkief.material-icon-theme. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.778 [error] Error while getting the latest version for the extension tabbyml.vscode-tabby. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:27.779 [error] Error while getting the latest version for the extension usernamehw.errorlens. Cannot read properties of undefined (reading 'replace')
+2025-03-28 15:09:28.206 [info] [perf] Render performance baseline is 57ms
