@@ -2,13 +2,16 @@
 🎛️ **Mis configuraciones para bspwm en Arch Linux**  
 
 ## 🖥️ Capturas de pantalla  
-*(Añade imágenes aquí con Markdown o enlaces a Imgur)*  
+![Fondo de Pantalla](2025-03-31_22-25.png)
+![Terminal](2025-03-31_22-25.png)
 
 ## 🚀 Instalación  
 ```sh
 git clone https://github.com/Diego11879/dotfilesBspwm.git ~/.dotfiles
 cd ~/.dotfiles
-stow bspwm sxhkd polybar rofi picom```
+stow bspwm sxhkd polybar rofi picom
+
+
 ## Rutas
 dotfiles/
 ├── bspwm/        # Co:nfiguración de bspwm
