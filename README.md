@@ -4,17 +4,15 @@
 ## Programas Principales
 Rofi, Polybar, Bspwm, Sxhkd, kitty, zsh
 
-## 🖥️ Capturas de pantalla  
+## Capturas de pantalla  
 ![Fondo de Pantalla](2025-03-31_22-25.png)
 ![Terminal](2025-03-31_22-25.png)
 
-## 🚀 Instalación  
+## Descarga  
+
 ```sh
-git clone https://github.com/Diego11879/dotfilesBspwm.git ~/.dotfiles
-cd ~/.dotfiles
-stow bspwm sxhkd polybar rofi picom
-
-
+git clone https://github.com/Diego11879/dotfilesBspwm.git  
+```
 ## Rutas
 dotfiles/
 ├── bspwm/        # Co:nfiguración de bspwm
